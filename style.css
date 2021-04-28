@@ -51,7 +51,7 @@ i{
 
 .card{
   background-color: white;
-  width: 600px;
+  /* width: 600px; */
   padding: 32px;
   padding-top: 15px;
   margin: 24px auto;

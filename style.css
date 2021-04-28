@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@300&display=swap');
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 500px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body{
+  background-color: #F7F7F7;
+}
+
+h1,h2{
+  font-family: "Lato", sans-serif;
+}
+
+h1{
+  color: #243038;
+}
+
+h2{
+  color: #333333;
+}
+
+p{
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+i{
+  font-size: 35px;
+  color: #ED3833;
+}
+
+div{
+  background-color: white;
+  width: 600px;
+  padding: 32px;
+  padding-top: 15px;
+  margin: 24px auto;
+  border-radius: 24px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  text-align: center;
+}
+
+img{
+  width: 100px;
+  border-radius: 50%;
+}
+
+.btn-follow{
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  background-color: #ED3833;
+  color: white;
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.btn-follow:hover{
+  background-color: white;
+  color: #ED3833;
+  border: 1px solid #ED3833;
+}
+
+#paragraph-withmargin {
+  margin-bottom: 32px;
+}
+
+#list-inline > li {
+  display: inline-block;
+  padding: 0px 5px;
+}
+
+#list-inline {
+  list-style: none;
+  padding-left: 0px;
+}

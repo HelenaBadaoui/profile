@@ -105,3 +105,8 @@ img{
   width: 700px;
   margin: 50px auto;
 }
+
+#video{
+  color: #ED3833;
+  text-decoration: none;
+}

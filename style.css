@@ -51,7 +51,7 @@ i{
 
 .card{
   background-color: white;
-  /* width: 600px; */
+  width: 600px;
   padding: 32px;
   padding-top: 15px;
   margin: 24px auto;
@@ -62,7 +62,6 @@ i{
 
 .card:hover{
   padding:40px;
-  background-color: #ED3833;
   box-shadow: 0 10px 30px rgba(0,0,0,.5);
   transition-duration: 0.2s;
 }
